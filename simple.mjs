@@ -5,5 +5,6 @@ function hello(text) {
     return "Hello " + text;
 }
 export { hello };
+export let MS=1111;
 let PI=3.14;
 export default PI;

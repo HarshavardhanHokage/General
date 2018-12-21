@@ -1,4 +1,4 @@
-const simple = require('./simple');
+var simple = require('./simple');
 
-console.log(simple.count());
-console.log(simple.hello("Playa!!!"));
+console.log("wewee");
+console.log(simple);

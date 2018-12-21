@@ -1,3 +1,6 @@
-var count = 0;
-exports.count = function() {return ++count};
-exports.hello = function(text) { return `Hello ${text}` };
+let jsonObj = {
+    "hello": "Hello World!",
+    "age": 200
+}
+
+module.exports = jsonObj;
