@@ -4,8 +4,6 @@ function binaryAgent(str) {
     let newArr = str.split(" ").map((item) => {
         return String.fromCharCode(parseInt(item, 2));
     })
-    console.log(newArr.join(""));
-    
     return newArr.join("");
   }
   
